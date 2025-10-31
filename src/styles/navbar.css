@@ -1,0 +1,25 @@
+/* Extracted navbar CSS (a condensed version of the original). Add additional rules as needed. */
+
+#site-title { visibility: hidden; }
+
+.header-title-nav-wrapper .header-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  min-width: 200px;
+  width: auto;
+  max-width: 100vw;
+  box-sizing: border-box;
+  overflow-y: auto !important;
+  overflow-x: visible !important;
+  -webkit-overflow-scrolling: touch;
+  background-color: #fff;
+  z-index: 1000;
+}
+
+/* ... (you can paste the rest of your original CSS here if desired) ... */
+
+.navbar-arrow-wrapper { cursor: pointer; }
+.nav-arrow { transition: transform 0.2s cubic-bezier(.54,.19,.36,.9); }
+.nav-arrow.flipped { transform: scaleX(-1); }
